@@ -126,3 +126,4 @@ jobs:
       if: ${{inputs.apply}}  
       run: terraform apply -var-file=config/${{ inputs.environment }}.tfvars -auto-approve -input=false
       working-directory: terraform
+      
